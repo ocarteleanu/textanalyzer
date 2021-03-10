@@ -156,9 +156,10 @@ public class TextAnalyzer {
 		//sort the pairs array list in descending order of the word frequency
 		Collections.sort(listOfPairs, new SortingTool());
 		System.out.println("These are all the words, by frequency, in the poem:");
+		System.out.println();
 		for(int k = 0; k < listOfPairs.size() - 1; k++){
-		System.out.printf("%-17s%d%n", listOfPairs.get(k).word ,listOfPairs.get(k).occurrence);
+		System.out.printf("%-17s%d%n", listOfPairs.get(k).word ,listOfPairs.get(k).occurrence);		
 		}		
 	}
-
+	
 }

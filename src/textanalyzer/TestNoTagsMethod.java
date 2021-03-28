@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 /**
  * This class checks to see if the cleanArrayNoTags method removes the HTML tags from 
  * the poem, so that only the words in the poem will be counted by the TextAnalyzer class
- *
  */
 class TestNoTagsMethod {
 	static ArrayList <String> noTagsArray = new ArrayList<>();

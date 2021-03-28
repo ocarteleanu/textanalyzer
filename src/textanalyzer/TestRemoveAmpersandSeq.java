@@ -8,7 +8,6 @@ import org.junit.jupiter.api.Test;
 /**
  *This class tests if the method removeAmpersand removes the HTML sequences 
  *that start with the ampersand and end with semicolon, returning two words
- *
  */
 class TestRemoveAmpersandSeq {
 	static String[] theTwoWords = {"", ""};

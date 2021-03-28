@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 /**
  * This class tests if the program counts all the words in the poem
  * The words in the poem were counted with a word document
- *
  */
 class TestNumberWords {
 

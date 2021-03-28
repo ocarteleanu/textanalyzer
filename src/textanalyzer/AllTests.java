@@ -5,8 +5,8 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({TestNumberWords.class, TestNoTagsMethod.class,
-	TestRemoveAmpersandSeq.class, TestTrimPunctuation.class})
+@SuiteClasses({TestNoTagsMethod.class, TestNumberWords.class, TestRemoveAmpersandSeq.class,
+	TestTrimPunctuation.class})
 public class AllTests {
 
 }
